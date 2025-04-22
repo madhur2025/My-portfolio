@@ -48,3 +48,23 @@ a {
 #detail-box a:hover {
     color: black;
 }
+@media (max-width: 768px) {
+    #img-info {
+        flex-direction: column;
+        width: 90vw;
+    }
+    #about-img {
+        width: 100vw;
+    }
+    #detail-box {
+        padding: 1rem; /* Less padding on mobile */
+    }
+
+    #detail-box h3 {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    #detail-box p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+}

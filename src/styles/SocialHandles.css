@@ -31,3 +31,30 @@
 .icon-names:hover{
     color: #CC005F;
 }
+@media (max-width: 768px) {
+    .headings{
+        font-size: 2.1rem;
+    }
+    #social-handles {
+        padding: 1rem 1rem; /* Less padding for mobile */
+    }
+
+    #social-box {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-link {
+        margin-bottom: 1.5rem; /* Add space between items */
+    }
+
+    .social-icons {
+        width: 40px; /* Slightly smaller icons for mobile */
+        height: 40px;
+    }
+
+    .icon-names {
+        font-size: 1rem; /* Slightly larger font size for mobile */
+    }
+}

@@ -23,3 +23,35 @@
 .quick-link-elements:hover{
     color: #CC005F;
 }
+@media (max-width: 768px) {
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem; /* Adjust padding for mobile */
+    }
+
+    .footer-div {
+        height: auto;
+        margin-bottom: 2rem; /* Add space between footer sections */
+    }
+
+    .footer-logo h2 {
+        font-size: 1.5rem; /* Smaller heading size for mobile */
+    }
+
+    .footer-logo h2 span {
+        font-size: 2.5rem; /* Adjust span size */
+    }
+
+    .footer-icons {
+        width: 2rem; /* Increase icon size for mobile */
+    }
+
+    .quick-link-elements {
+        font-size: 1rem; /* Adjust link size */
+    }
+
+    .quick-link-elements:hover {
+        color: #CC005F;
+    }
+}

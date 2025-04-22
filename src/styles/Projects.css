@@ -13,8 +13,6 @@
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    /* max-width: auto; */
-    /* margin: 0 auto; */
     transition: transform 0.2s ease-in-out;
 }
 
@@ -64,9 +62,6 @@
     font-size: 0.8rem;
 }
 
-.con-div a {
-    /* margin: 10% 2%; */
-}
 
 .git-linked {
     display: flex;
