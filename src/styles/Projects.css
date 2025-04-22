@@ -1,0 +1,102 @@
+#project-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    padding: 2rem;
+}
+
+#projects {
+    overflow: hidden;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* max-width: auto; */
+    /* margin: 0 auto; */
+    transition: transform 0.2s ease-in-out;
+}
+
+#projects:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+.prj-div {
+    display: flex;
+    flex-direction: column;
+    height: 17rem;
+    width: 17rem;
+}
+
+.prj-div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.con-div {
+    background-color: grey;
+    height: 17rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10% 15% 5% 8%;
+}
+
+.con-div h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #CC005F;
+}
+
+.con-div h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.con-div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+}
+
+.con-div a {
+    /* margin: 10% 2%; */
+}
+
+.git-linked {
+    display: flex;
+    gap: 2rem;
+}
+
+.git-linked img {
+    height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    #projects {
+        box-shadow: 1px 1px 15px 1px black;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 80vw;
+    }
+
+    #project-sec h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .con-div,
+    .prj-div {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .con-div p {
+        font-size: 0.95rem;
+    }
+}

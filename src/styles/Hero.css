@@ -1,0 +1,88 @@
+#hero {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+}
+
+#hello-world {
+    font-family: "Poppins", sans-serif;
+    color: #CC005F;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+#madhur {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 6rem;
+    color: #ddd;
+}
+
+#passion {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #ddd;
+    letter-spacing: 0.2rem;
+}
+
+#know-more {
+    margin: 2rem;
+    height: 2.5rem;
+    width: 8rem;
+    background: transparent;
+    border-radius: 1.2rem;
+    border: none;
+    color: #ddd;
+    border: 0.1em solid #ddd;
+    transition: transform 0.1s ease-in-out;
+    box-shadow: 1px 2px 10px black;
+}
+
+#know-more:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 15px black;
+    cursor: pointer;
+}
+
+.hero-span {
+    font-size: 1.5rem;
+}
+
+#know-more a {
+    color: #ddd;
+}
+
+@media screen and (max-width: 768px) {
+    #hero {
+        height: 78vh;
+        margin-top: 4rem;
+        gap: 2rem;
+    }
+
+    #madhur {
+        font-size: 2rem;
+    }
+
+    #hello-world {
+        font-size: 1.5rem;
+    }
+
+    #passion {
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+    }
+
+    .hero-span {
+        font-size: 1.2rem;
+    }
+
+    #know-more {
+        width: 50%;
+        font-size: 1rem;
+    }
+}

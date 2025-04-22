@@ -1,0 +1,33 @@
+#social-handles{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #f4f4f9;
+}
+#social-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-icons{
+    transition: transform 0.2s ease-in-out;
+    margin: 1rem;
+}
+.social-icons:hover{
+    transform: scale(1.2);
+}
+.icon-names{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;;
+}
+.icon-names:hover{
+    color: #CC005F;
+}

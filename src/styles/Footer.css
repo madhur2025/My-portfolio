@@ -1,0 +1,25 @@
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #282C2F;
+    color:#ddd;
+    padding: 2rem;
+}
+.footer-div{
+    height: 30vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-logo h2 span{
+    font-size: 3rem;
+    color:#CC005F;
+} 
+.footer-icons{
+    width: 1.5rem;
+}
+.quick-link-elements:hover{
+    color: #CC005F;
+}

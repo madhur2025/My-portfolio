@@ -1,0 +1,50 @@
+#about {
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 2rem; */
+}
+
+#img-info {
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    border: 0.1rem solid #CC005F;
+    width: 83vw;
+}
+
+#about-img {
+    width: 22vw;
+}
+
+#detail-box {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+#detail-box p {
+    font-family: "Nunito", sans-serif;
+}
+
+#detail-box h3 {
+    color: #CC005F;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+#detail-box h3 span,
+a {
+    color: grey;
+}
+
+#detail-box a:hover {
+    color: black;
+}

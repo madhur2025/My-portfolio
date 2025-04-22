@@ -1,0 +1,33 @@
+#certi-div {
+    background-color: #f4f4f9;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#certi-div h2 span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #CC005F;
+}
+
+#certifications {
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+
+.ceti-img {
+    height: 17rem;
+    box-shadow: 1px 1px 15px 1px black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ceti-img:hover {
+    transform: scale(1.1);
+}
