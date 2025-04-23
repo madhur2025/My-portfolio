@@ -32,9 +32,10 @@
     transform: scale(1.1);
 }
 @media (max-width: 768px) {
+
     #certifications {
         grid-template-columns: 1fr;
-        row-gap: 2rem;
+        row-gap: 1.5rem;
     }
 
     .ceti-img {

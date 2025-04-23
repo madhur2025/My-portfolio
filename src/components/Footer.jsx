@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <div className='footer-div quick-links-list'>
         <h3 className='quick-link-heading'>Quick links</h3>
-        <ul>
+        <ul id='list-ul'>
           <li><a className='quick-link-elements' href="#about">About</a></li>
           <li><a className='quick-link-elements' href="#certi-div">Certifications</a></li>
           <li><a className='quick-link-elements' href="#project-sec">Projects</a></li>

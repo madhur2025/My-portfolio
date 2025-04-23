@@ -10,7 +10,7 @@ import calling from '../assets/icons/icons8-call-50.png'
 const SocialHandles = () => {
   return (
     <section id='social-handles'>
-      <h2 className='headings'>My<span className='headings-span'> Social </span>handles</h2>
+      <h2 className='headings'>My<span className='headings-span'> Social </span>Handles</h2>
       <div id='social-box'>
 
         <div className='icon-link'>

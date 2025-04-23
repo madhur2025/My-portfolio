@@ -3,6 +3,7 @@ import '../styles/Projects.css'
 import notes from '../assets/todolist.jpg'
 import gym from '../assets/Fitness app icon.jpeg'
 import clipboard from '../assets/clipboard.jpeg'
+import portfolio from '../assets/download (1).jpeg'
 import git from '../assets/icons/github-icon.png'
 import linkedin from '../assets/icons/linkedin-icon.png'
 const Projects = () => {
@@ -24,6 +25,7 @@ const Projects = () => {
         </div>
 
         <div className='prj-div'><img src={clipboard} alt="Clipboard"/></div>
+
         <div className='con-div'>
           <h6>Project Design</h6>
           <h3>To-Do List : My second project</h3>
@@ -35,6 +37,7 @@ const Projects = () => {
         </div>
 
 
+        <div className='prj-div'><img id='notes-img' src={notes} alt="NoteSafe"/></div>
 
         <div className='con-div'>
           <h6>Project Design</h6>
@@ -45,20 +48,19 @@ const Projects = () => {
           <a href='https://www.linkedin.com/posts/madhusudan-sharma-k24169_react-activity-7317819299883016192-K-Zo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkeXqQBynPDnInK02fsXDPskha3j0aCf3M'><img src={linkedin}/></a>
           </div>
         </div>
-        <div className='prj-div'><img id='notes-img' src={notes} alt="NoteSafe"/></div>
 
 
+        <div className='prj-div'><img id='gym-logo' src={portfolio} alt="Gym logog"/></div>
 
         <div className='con-div'>
           <h6>Project Design</h6>
-          <h3>Gym landing : My first project</h3>
-          <p>My first static project after learning HTML, CSS. A gym landing page where member can see plans.</p>
+          <h3>My portfolio : By React.js</h3>
+          <p>My personal portfolio website built with React.js and deployed on Vercel. This project reflects my journey and skills as a web developer.</p>
           <div className='git-linked'> 
-          <a href='https://github.com/madhur2025/Gym-Landingpage-UI'><img src={git}/></a>
-          <a href='https://www.linkedin.com/posts/madhusudan-sharma-k24169_html-css-activity-7314154065339301889-U37f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkeXqQBynPDnInK02fsXDPskha3j0aCf3M'><img src={linkedin}/></a>
+          <a href='https://github.com/madhur2025/My-portfolio.git'><img src={git}/></a>
+          <a href='https://www.linkedin.com/posts/madhusudan-sharma-k24169_react-vercel-react-activity-7320623214915727362-ds6-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkeXqQBynPDnInK02fsXDPskha3j0aCf3M'><img src={linkedin}/></a>
           </div>
         </div>
-        <div className='prj-div'><img id='gym-logo' src={gym} alt="Gym logog"/></div>
       </div>
     </section>
   )
