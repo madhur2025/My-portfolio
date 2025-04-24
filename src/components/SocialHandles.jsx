@@ -14,38 +14,34 @@ const SocialHandles = () => {
       <div id='social-box'>
 
         <div className='icon-link'>
-          <img className='social-icons' src={calling} />
-          <a className='icon-names' href="tel:+918769376935">Calling</a>
+          <a className='icon-names' href="tel:+918769376935"><img className='social-icons' src={calling} />Calling</a>
         </div>
       
         <div className='icon-link'>
-          <img className='social-icons' src={whatsapp} />
-          <a className='icon-names' href="https://wa.me/8769376935">WhatsApp</a>
+          <a className='icon-names' href="https://wa.me/8769376935"><img className='social-icons' src={whatsapp} />WhatsApp</a>
         </div>
         
         <div className='icon-link'>
-          <img className='social-icons' src={instagram} />
-          <a className='icon-names' href="https://www.instagram.com/madhurr.sharma?igsh=MXFtdnNoZmpsYmFqNQ==">instagram</a>
+          <a className='icon-names' href="https://www.instagram.com/madhurr.sharma?igsh=MXFtdnNoZmpsYmFqNQ=="><img className='social-icons' src={instagram} />instagram</a>
         </div>
         
         <div className='icon-link'>
-          <img className='social-icons' src={twitter} />
-          <a className='icon-names' href="https://x.com/Madhurr2025">Twitter</a>
+          
+          <a className='icon-names' href="https://x.com/Madhurr2025"><img className='social-icons' src={twitter} />Twitter</a>
         </div>
         
         <div className='icon-link'>
-          <img className='social-icons' src={mail} />
-          <a className='icon-names' href="mailto:madhusudansharma2324@gmail.com">E-mail</a>
+          
+          <a className='icon-names' href="mailto:madhusudansharma2324@gmail.com"><img className='social-icons' src={mail} />E-mail</a>
         </div>
         
         <div className='icon-link'>
-          <img className='social-icons' src={github} alt="" />
-          <a className='icon-names' href="https://github.com/madhur2025">Git hub</a>
+          
+          <a className='icon-names' href="https://github.com/madhur2025"><img className='social-icons' src={github} alt="" />Git hub</a>
         </div>
         
-        <div className='icon-link'>
-          <img className='social-icons' src={linkedin} />
-          <a className='icon-names' href="www.linkedin.com/in/madhusudan-sharma-k24169">Linkedin</a>
+        <div className='icon-link'>  
+          <a className='icon-names' href="https://www.linkedin.com/in/madhusudan-sharma-k24169/"><img className='social-icons' src={linkedin} />Linkedin</a>
         </div>
       
       </div>
