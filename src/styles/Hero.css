@@ -38,7 +38,7 @@
 #know-more {
     margin: 2rem;
     height: 2.5rem;
-    width: 8rem;
+    width: 10vw;
     background: transparent;
     border-radius: 1.2rem;
     border: none;
@@ -63,22 +63,23 @@
 }
 
 @media screen and (max-width: 768px) {
-    #hero {
-        height: 78vh;
-        margin-top: 4rem;
+    #hero div{
+        width: 90vw;
+        height: 45vh;
+        margin-top: 1rem;
         gap: 2rem;
     }
 
     #madhur {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #hello-world {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     #passion {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         flex-wrap: wrap;
     }
 
@@ -87,7 +88,8 @@
     }
 
     #know-more {
-        width: 50%;
+        margin: 0rem;
+        width: 10rem;
         font-size: 1rem;
     }
 }

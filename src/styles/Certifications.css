@@ -1,5 +1,4 @@
 #certi-div {
-    background-color: #f4f4f9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,8 +25,11 @@
     transform: scale(1.05);
 }
 @media (max-width: 768px) {
-
+    #certi-div{
+        margin-top: 1rem
+    }
     #certifications {
+    
         grid-template-columns: 1fr;
         row-gap: 1.5rem;
     }

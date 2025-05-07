@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/Hero.css'
 const Hero = () => {
   return (
@@ -8,7 +7,6 @@ const Hero = () => {
       <h2 id="madhur">I'm Madhur sharma.</h2>
       <h3 id="passion">
         <span className='hero-span'> | </span>FRONT-END
-        
         <span className='hero-span'> | </span>REACT
         <span className='hero-span'> | </span>MERN
         <span className='hero-span'> | </span>

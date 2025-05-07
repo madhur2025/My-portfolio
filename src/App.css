@@ -9,7 +9,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+.app{
+    background-color: #f4f4f9;
+}
 .headings{
     font-family: "Poppins", sans-serif;
     font-size: 2.3rem;
@@ -25,10 +27,4 @@
     font-weight: 600;
     font-size: 1em;
     color: #CC005F;
-}
-@media screen and (max-width: 768px) {
-    .app{
-        background-image: url('./assets//back-rotate.jpg');
-        height: 100vh;
-    }
 }
