@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><a href="#project-sec">Projects</a></li>
         <li><a href="#certi-div">Certifications</a></li>
         <li><a href="#social-handles">Contact</a></li>
+        <li><a href="#"></a></li>
       </ul>
     </header>
   )

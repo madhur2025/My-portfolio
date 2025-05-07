@@ -1,12 +1,17 @@
 #hero {
-    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+#hero div{
+    background-image: url('../assets/digital-red-circuit-lines-technology-background-design_1017-27263.avif');
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 64vh;
+    height: 85vh;
+    width: 95vw;
+    border-radius: 4rem;
 }
-
 #hello-world {
     font-family: "Poppins", sans-serif;
     color: #CC005F;
@@ -39,7 +44,7 @@
     border: none;
     color: #ddd;
     border: 0.1em solid #ddd;
-    transition: transform 0.1s ease-in-out;
+    transition: transform 0.6s ease-in-out;
     box-shadow: 1px 2px 10px black;
 }
 

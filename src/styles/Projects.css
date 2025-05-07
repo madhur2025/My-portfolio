@@ -1,9 +1,10 @@
 #project-sec {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f4f4f9;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 #projects {

@@ -1,42 +1,59 @@
 #social-handles{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     background-color: #f4f4f9;
 }
-#social-box{
+#icon-wrapper{
+    padding: 2rem;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3rem;
 }
 .icon-link{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    /* float: left; */
+    margin: 0px 5px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+    transition: all 0.9s ease;
 }
-.social-icons{
-    transition: transform 0.2s ease-in-out;
-    margin: 1rem;
+.icon-link:hover{
+    width: 190px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
 }
-.social-icons:hover{
-    transform: scale(1.2);
+.icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.icon i{
+    font-size: 22px;
+    line-height: 60px;
+}
+.icon-link span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
 }
 .icon-names{
+    color: black;
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-size: 0.9rem;;
 }
-.icon-names{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.icon-names:hover{
-    color: #CC005F;
-}
+
 @media (max-width: 768px) {
     .headings{
         font-size: 2rem;
@@ -45,9 +62,10 @@
         padding: 1rem 1rem;
     }
 
-    #social-box {
+    #icon-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
     }
 
     .icon-link {
